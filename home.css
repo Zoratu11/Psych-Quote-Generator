@@ -1,0 +1,76 @@
+@import url("https://fonts.googleapis.com/css?family=Playfair+Display");
+
+#quoteBox {
+  text-align: center;
+  width: 100vw;
+  position: absolute;
+  bottom: 3vh;
+  font-size: 3.5vw;
+}
+
+@media screen and (orientation: landscape) {
+  #psychImage {
+    width: 70vw !important;
+    height: auto;
+    margin: 0 auto !important;
+    display: block;
+  }
+
+  #quoteBox {
+    font-size: 1.2vw !important;
+  }
+}
+
+/* ----------- Non-Retina Screens ----------- */
+@media screen 
+  and (min-device-width: 1200px) 
+  and (max-device-width: 1800px) 
+  and (-webkit-min-device-pixel-ratio: 1) 
+  {
+
+    #quoteBox {
+      font-size: 0.6em;
+      bottom: 3vh;
+    }
+
+    #quote {
+      margin: 2vw;
+    }
+
+    #twitterButton {
+      width: 4vw;
+      float: right !important;
+      display: inline-block;
+    }
+  }
+
+#twitterButton {
+  max-width: 10%;
+  float: right;
+  display: inline-block;
+}
+
+#getQuoteButton {
+  background-color: #9CCC3C; /* Green */
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  float: left;
+  font-size: 1em;
+}
+
+body {
+  font-family: Playfair Display;
+  color: #9CCC3C;
+  margin: 0px;
+  padding: 0px;
+}
+
+#psychImage {
+  width: 100vw;
+  height: auto;
+}
+
